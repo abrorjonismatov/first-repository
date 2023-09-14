@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-line {
+  width: 100%;
+  display: flex;
+  color: #969696;
+  line-height: 44px;
+  background-color: #000000;
+  justify-content: space-around;
+}
+
+.second-line {
+  width: 100%;
+  display: flex;
+  color: #969696;
+  line-height: 80px;
+  background-color: #0F0F0F;
+}
+.second-line .logo-2 {
+  display: flex;
+  width: 100%;
+}
+.second-line h1 {
+  color: #FFFFFF;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.second-line p {
+  margin: 0 10px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.second-line .item-1 {
+  background-color: #1F1F1F;
+}
+.second-line img {
+  width: 20px;
+  height: 22px;
+  margin: 0 20px;
+  margin-top: 30px;
+}
+
+.first-screen {
+  width: 100%;
+  height: 662px;
+  background-image: url(..//IMGES/Rectangle\ 3.png);
+  background-size: cover;
+  padding: 100px 200px;
+}
+.first-screen .porten-topik {
+  margin: 0 auto;
+  color: #FFFFFF;
+  border: 3px solid #FFFFFF;
+  height: 320px;
+  width: 320px;
+}
+.first-screen .porten-topik .topik {
+  margin: 120px 65px;
+  width: fit-content;
+  text-align: center;
+}
+.first-screen .porten-topik :last-child {
+  font-size: 22px;
+}
+.first-screen .porten-p {
+  width: 620px;
+  height: 96px;
+  margin: 0 auto;
+}
+.first-screen .porten-p p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+.container .new-season {
+  width: 50%;
+  height: 600px;
+  color: #FFFFFF;
+  background-color: #000000;
+  text-align: center;
+}
+.container .new-season .col {
+  display: flex;
+  gap: 10px;
+  text-align: start;
+  padding: 0 50px;
+}
+.container .new-season .col .prices-1 {
+  width: 230px;
+  height: 295px;
+  display: block;
+  padding: 50px 0;
+  background-color: #191B1C;
+}
+.container .new-season h4 {
+  font-size: 36px;
+  padding: 100px 0 0 0;
+  font-family: Playfair Display;
+}
+.container .new-season hr {
+  width: 120px;
+  margin: 0 auto;
+}
+.container .new-collection {
+  width: 50%;
+  height: 600px;
+  background-image: url(..//IMGES/Rectangle\ 8.png);
+  background-size: cover;
+}
+.container .new-collection .collection {
+  width: 476px;
+  height: 146px;
+  color: #FFFFFF;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 400px;
+}
+.container .new-collection .collection hr {
+  width: 120px;
+  margin: 0 auto;
+}
+.container .new-collection .collection h3 {
+  font-size: 36px;
+}
+.container .new-collection .collection button {
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  background-color: transparent;
+  padding: 12px 28px 12px 28px;
+}
+
+.collection-2018 {
+  display: flex;
+}
+.collection-2018 .Rectangle-9 {
+  width: 45%;
+  height: 420px;
+  background-image: url(..//IMGES/Rectangle\ 9.png);
+  background-size: cover;
+}
+.collection-2018 .Rectangle-8 {
+  width: 55%;
+  background-color: #000000;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 100px 0;
+  height: 420px;
+}
+.collection-2018 .Rectangle-8 hr {
+  width: 120px;
+  margin: 0 auto;
+}
+.collection-2018 .Rectangle-8 button {
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  background-color: transparent;
+  padding: 12px 28px 12px 28px;
+}
+.collection-2018 .Rectangle-8 p {
+  font-size: 14px;
+  width: 471px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.new-goods {
+  text-align: center;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 50px 0;
+}
+.new-goods hr {
+  width: 120px;
+  margin: 0 auto;
+}
+.new-goods h3 {
+  font-size: 36px;
+}
+.new-goods .types-of-watches {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1px;
+  width: 140vh;
+  text-align: start;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+.new-goods .types-of-watches .prices-1 {
+  width: 200px;
+  height: 265px;
+  display: block;
+  padding: 50px 0;
+  background-color: #191B1C;
+}
+
+.our-brands {
+  background-color: #0F0F0F;
+  text-align: center;
+  color: #FFFFFF;
+  height: 352px;
+}
+.our-brands hr {
+  width: 120px;
+  margin: 0 auto;
+}
+.our-brands h3 {
+  font-size: 36px;
+}
+.our-brands .Rectangles {
+  display: flex;
+  padding: 0 310px;
+  gap: 10px;
+}
+
+.footer {
+  display: flex;
+  height: 400px;
+  background-image: url(..//IMGES/Rectangle\ 15.png);
+  background-size: cover;
+  color: #FFFFFF;
+  padding: 80px 200px;
+}
+.footer .coll-1 h3 {
+  font-size: 24px;
+}
+.footer .coll-1 p {
+  width: 350px;
+}
+.footer .coll-2 ul {
+  display: flex;
+  gap: 10px;
+}
+.footer .coll-2 ul .grid-system-1 {
+  width: 100px;
+}
+.footer .coll-2 ul .grid-system-2 {
+  width: 200px;
+}
+.footer .coll-2 ul .grid-system-3 {
+  width: 140px;
+}
+.footer .coll-2 ul .grid-system-4 {
+  width: 250px;
+}
+.footer .coll-2 ul .grid-system-5 {
+  width: 150px;
+}
+.footer .coll-2 ul li {
+  list-style: none;
+  text-align: center;
+  padding: 20px 15px;
+  background-color: #0F0F0F;
+}
+.footer .coll-2 ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.footer .coll-3 {
+  margin: 0 20px;
+}
+.footer .coll-3 .div-1 {
+  display: flex;
+}
+.footer .coll-3 .div-1 .div-2 {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 15px 40px;
+  padding-right: 120px;
+}
+.footer .coll-3 .div-1 .div-3 {
+  background-color: #0F0F0F;
+  text-align: center;
+  padding: 15px 20px 10px 20px;
+}
+
+.last-line {
+  width: 100%;
+  display: flex;
+  color: #969696;
+  line-height: 44px;
+  background-color: #000000;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=style.css.map */
